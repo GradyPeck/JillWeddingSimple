@@ -1,4 +1,44 @@
+@font-face {
+    font-family: "Blinker";
+    src: url("./Blinker/Blinker-Regular.ttf");
+}
+
 body {
     background-color: #FFF8DC;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+#heading {
+    font-family: "Blinker";
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#subheading {
+    font-family: "Blinker";
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 25px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    font-size: x-large;
+}
+
+#warn {
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 20%;
+    width: fit-content;
+    height: fit-content;
+    border: 4px black solid;
 }
