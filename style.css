@@ -1,15 +1,21 @@
 @font-face {
-    font-family: "Blinker";
+    font-family: "Blinker-Regular";
     src: url("./Blinker/Blinker-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Blinker-Light";
+    src: url("./Blinker/Blinker-Light.ttf");
+}
+
 body {
-    background-color: #FFF8DC;
+    background-color: #e6f3ff;
+    color: #0a0057;
     padding: 20px;
 }
 
 #heading {
-    font-family: "Blinker";
+    font-family: "Blinker-Regular";
     margin: auto;
     width: fit-content;
     margin-bottom: 20px;
@@ -18,29 +24,26 @@ body {
 }
 
 #subheading {
-    font-family: "Blinker";
+    font-family: "Blinker-Regular";
     margin: auto;
     width: fit-content;
-    margin-bottom: 30px;
+    margin-bottom: 6vw;
     text-align: center;
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: "Blinker-Light", Helvetica, sans-serif;
     margin: auto;
     width: fit-content;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 5vw;
     padding-left: 50px;
     padding-right: 50px;
     font-size: x-large;
 }
 
-#warn {
-    position: fixed;
-    margin-left: 40%;
-    margin-top: 20%;
-    width: fit-content;
-    height: fit-content;
-    border: 4px black solid;
-}
+/* @media screen and (min-width: 1000px) {
+    p {
+      max-width: 60%;
+    }
+  } */
