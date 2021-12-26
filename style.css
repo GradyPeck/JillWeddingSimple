@@ -27,8 +27,14 @@ body {
     font-family: "Blinker-Regular";
     margin: auto;
     width: fit-content;
-    margin-bottom: 6vw;
+    margin-bottom: 4vw;
     text-align: center;
+}
+
+h2 {
+    font-family: "Blinker-Regular";
+    text-align: center;
+    border-top: black 1px solid;
 }
 
 p {
@@ -62,8 +68,12 @@ img {
     max-height: 200px;
 }
 
-/* @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     #subheading{
         font-size: 30px;
     }
-} */
+
+    p {
+        padding: 0px;
+    }
+}
