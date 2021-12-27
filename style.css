@@ -35,6 +35,7 @@ h2 {
     font-family: "Blinker-Regular";
     text-align: center;
     border-top: black 1px solid;
+    padding-top: 12px;
 }
 
 p {
