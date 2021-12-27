@@ -68,6 +68,21 @@ img {
     max-width: 100%;
     max-height: 200px;
 }
+.flake {
+    border: 0px;
+    width: 50px;
+    height: auto;
+    margin: 8px;
+    padding: 0px;
+}
+
+#leftflake {
+    float: left;
+}
+
+#rightflake {
+    float: right;
+}
 
 @media screen and (max-width: 700px) {
     #subheading{
